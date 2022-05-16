@@ -11,7 +11,7 @@ function App() {
         <Weather />
         <small className="code-link">
           <a
-            href="https://github.com/allwrightgemma/weather-app"
+            href="https://github.com/allwrightgemma/weather-react"
             target="_blank"
             rel="noreferrer"
           >
