@@ -1,0 +1,20 @@
+.Today .high-low {
+  font-size: 16px;
+  color: #3d5972;
+}
+
+.Today .temperature {
+  font-size: 25px;
+  color: #24527a;
+}
+.Today .today-weather-icon {
+  font-size: 35px;
+  color: #24527a;
+}
+
+.Today ul {
+  display: flex;
+
+  justify-content: space-between;
+  list-style: none;
+}

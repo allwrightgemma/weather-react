@@ -1,0 +1,7 @@
+.Weather .weather-app {
+  border: solid 5px #24527a;
+  border-radius: 10px;
+  background: #9bbfcf;
+  padding: 15px 25px 20px;
+  font-family: "Outfit", sans-serif;
+}
