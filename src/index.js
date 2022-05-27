@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
+        <Weather defaultCity="London" />
         <small className="code-link">
           <a
             href="https://github.com/allwrightgemma/weather-react"
