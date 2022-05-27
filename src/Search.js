@@ -11,14 +11,15 @@ export default function Search() {
               Current
             </button>
           </div>
-          <div className="col-6 float-end">
+          <div className="col-6">
             <input
               className="form-control"
               type="search"
               placeholder="Enter a location..."
+              autoFocus="on"
             />
           </div>
-          <div className="col-sm">
+          <div className="col">
             <input className="form-control search-button" type="submit" />
           </div>
         </div>

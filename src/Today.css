@@ -4,17 +4,23 @@
 }
 
 .Today .temperature {
-  font-size: 25px;
+  font-size: 50px;
   color: #24527a;
 }
-.Today .today-weather-icon {
-  font-size: 35px;
+.Today .unit {
+  font-size: 20px;
   color: #24527a;
+  position: relative;
+  top: -20px;
+}
+
+.Today img {
+  height: 70px;
 }
 
 .Today ul {
   display: flex;
-
   justify-content: space-between;
   list-style: none;
+  margin: 20px 0 0 0;
 }

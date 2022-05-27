@@ -11,18 +11,16 @@ export default function Today() {
   return (
     <div className="Today">
       <div className="row">
-        <div className="col-12">
+        <div className="col">
           <ul>
-            <li className="high-low">High</li>
-            <li className="temperature">{weatherData.highTemperature}°C</li>
-            <li className="high-low">Low</li>
-            <li className="temperature">{weatherData.lowTemperature}°C</li>
             <li>
-              <img
-                className="today-weather-icon"
-                src={weatherData.imgUrl}
-                alt={weatherData.description}
-              />
+              {" "}
+              <span className="temperature">{weatherData.highTemperature}</span>
+              <span className="unit">°C</span>
+            </li>
+
+            <li>
+              <img src={weatherData.imgUrl} alt={weatherData.description} />
             </li>
           </ul>
         </div>
