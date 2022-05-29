@@ -22,12 +22,6 @@
   margin-top: 20px;
 }
 
-.Weather h2 {
-  font-size: 16px;
-  color: #24527a;
-  margin-top: 5px;
-}
-
 .Weather .weather-description {
   color: #24527a;
   font-size: 16px;
@@ -56,13 +50,6 @@
   top: -20px;
 }
 
-.Weather .weather-today img {
-  height: 70px;
-}
-
-.Weather .weather-today ul {
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  margin: 5px 0 0 0;
+.Weather .weather-today {
+  margin: 5px 0 0 40px;
 }
