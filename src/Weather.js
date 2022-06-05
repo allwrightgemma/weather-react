@@ -44,12 +44,7 @@ export default function Weather(props) {
         <div className="weather-app">
           <form onSubmit={handleSubmit}>
             <div className="row">
-              <div className="col float-start">
-                <button type="button" className="btn current">
-                  Current
-                </button>
-              </div>
-              <div className="col-6">
+              <div className="col-9">
                 <input
                   className="form-control"
                   type="search"
@@ -64,6 +59,7 @@ export default function Weather(props) {
             </div>
           </form>
           <WeatherInfo data={weatherData} />
+          <hr />
           <WeatherForecast coordinates={weatherData.coordinates} />
         </div>
       </div>
