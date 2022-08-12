@@ -1,29 +1,30 @@
 .Weather .weather-app {
-  border: solid 5px #24527a;
+  border: solid 2px var(--primary-colour);
   border-radius: 10px;
-  background: #9bbfcf;
+  background: rgba(233, 237, 239, 0.5);
+
   padding: 15px 25px 20px;
   font-family: "Outfit", sans-serif;
 }
 .Weather .search-button {
-  background: #24527a;
+  background: var(--primary-colour);
   color: #fff;
   text-align: center;
 }
 .Weather .current {
-  background: #24527a;
+  background: var(--primary-colour);
   color: #fff;
 }
 
 .Weather h1 {
   font-weight: 600;
-  color: #24527a;
+  color: var(--primary-colour);
   font-size: 24px;
   margin-top: 20px;
 }
 
 .Weather .weather-description {
-  color: #24527a;
+  color: var(--primary-colour);
   font-size: 16px;
   margin: 0 auto 10px;
 }
@@ -33,7 +34,7 @@
 }
 
 .Weather .weather-condition {
-  color: #24527a;
+  color: var(--primary-colour);
   text-align: right;
   font-size: 16px;
   list-style: none;
@@ -41,18 +42,14 @@
 
 .Weather .weather-today .temperature {
   font-size: 50px;
-  color: #24527a;
+  color: var(--primary-colour);
 }
 .Weather .weather-today .unit {
   font-size: 20px;
-  color: #24527a;
+  color: var(--primary-colour);
   position: relative;
   top: -20px;
   margin-left: 8px;
-}
-.Weather .weather-today .unit a {
-  text-decoration: none;
-  color: #5881a5;
 }
 
 .Weather .weather-today {
